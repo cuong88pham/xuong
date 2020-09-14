@@ -1,4 +1,273 @@
-html * {
-  font-family: 'Livvic';
-  font-size: 24px;
+/*==========Global==============*/
+.col {
+  float: left;
+}
+.col-1 {
+  width: 8.33333333%;
+}
+.col-2 {
+  width: 16,6666667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.3333333%;
+}
+.col-5 {
+  width: 41.6666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.3333333%;
+}
+.col-8 {
+  width: 66.6666667%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.3333333%;
+}
+.col-11 {
+  width: 91.6666667%;
+}
+.col-12 {
+  width: 100%;
+}
+.font-Livvic {
+  font-family: "Livvic";
+}
+.font-RobotoMono {
+  font-family: "Roboto Mono";
+}
+.font-TenorSans {
+  font-family: "Tenor Sans";
+}
+.font-YesevaOne {
+  font-family: "Yeseva One";
+}
+
+body {
+  color: black;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+.row{
+  clear: both;
+}
+
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*==========Global==============*/
+
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-indent: 10px;
+  font-family: "Yeseva One";
+}
+h3 {
+  font-family: "Yeseva One";
+  font-size: 20px;
+}
+
+/*==========banner==============*/
+nav {
+  background: url(../images/photo_2020-09-12_19-34-56.jpg) no-repeat  ;
+  height: 142px; 
+  padding: 20px;
+}
+.logo {
+  border-radius: 50%;
+  width: 60px;
+}
+.brand {
+  float: right;
+  text-align: center;
+}
+.brand-name {
+  font-family: "Livvic";
+}
+.slogan {
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  font-size: 12px;
+}
+.menu-top li {
+  display: inline-table;
+  padding-top: 30px;
+  font-family: "Yeseva One"
+  
+}
+.menu-top li a {
+  text-decoration: none;
+  padding-left: 50px;
+  color: black;
+}
+.shopping-cart {
+  height: 25px;
+  padding-top: 20px;
+  float: right;
+}
+/*==============banner===============*/
+
+
+
+/*=================main================*/
+
+
+.all-products, .menu-products li,.page-number li {
+  display: inline-block;
+}
+
+.menu-products li {
+  display: inline-table;
+  padding-left: 30px;
+}
+
+.menu-products ul li i {
+  padding-left: 10px;
+}
+
+.all-products {
+  line-height: 45px;
+  width: 100%;
+}
+
+.all-products i {
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.item-img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+.name-product {
+  padding-top: 30px;
+  font-size: 14px;
+  font-family: "Tenor Sans";
+  font-weight: bold;
+}
+
+.price-product {
+  font-family: "Roboto Mono";
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+}
+.list-phone, .list-style {
+  padding: 20px;
+
+}
+.page-number ul li {
+  padding-left: 8px;
+}
+
+
+/*==============main==================*/
+
+
+/*===============footer=================*/
+footer {
+  clear: both;
+ padding-top: 40px; 
+}
+.contact {
+  clear: both;
+  padding: 30px 0 30px 0;
+}
+.icon-right {
+  float: right;
+  padding-left: 30px;
+}
+#address ul li {
+  font-family: "Livvic";
+  font-weight: bold;
+  font-size: 15px;
+}
+#address ul li i {
+  padding-right: 5px;
+
+}
+/*==================footer===============*/
+
+.flex-box li {
+  height: 30px;
+  line-height: 30px;
+  padding-top: 40px;
+
+  
+}
+.flex-box img {
+  float: right;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+
+
+strong {
+  font-weight: bold;
+}
+.product {
+  padding: 20px;
+}
+
+.padding-30 {
+  padding: 30px;
+
+}
+
+.categories h2 {
+  padding: 60px 0 ;
+  
+}
+.devices {
+  padding-left: 23px;
+}
+.devices i {
+  padding-right: 30px;
+}
+.style-categories {
+padding-left: 60px;
+}
+.float-right {
+  float: right;
+}
+.padding-top-60{
+  padding-top: 50px;
+} 
+.padding-top-90 {
+  padding-top: 90px;
+}
+.padding-top-30 {
+  padding-top: 30px;
+}
+.padding-top-10 {
+  padding-top: 10px;
 }
