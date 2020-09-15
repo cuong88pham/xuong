@@ -131,7 +131,10 @@ nav {
 
 
 /*=================main================*/
-
+.bg-home {
+  background: url(../images/BG.jpg) ;
+  background-size: cover;
+}
 
 .all-products, .menu-products li,.page-number li {
   display: inline-block;
@@ -184,8 +187,10 @@ nav {
   float: right;
 }
 .button-center {
-  padding: 40px 50%;
-  width: 25px;
+  padding: 40px 0;
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 .list-phone, .list-style {
   padding: 20px;
@@ -193,6 +198,7 @@ nav {
 }
 .page-number ul li {
   padding-left: 8px;
+  font-weight: bold;
 }
 
 
@@ -285,7 +291,26 @@ padding-left: 60px;
 a {
   color: black;
   text-decoration: none;
+  
 }
+.
 .page-number-bottom {
   padding-top: 40px;
+}
+.price-product-all {
+  display: flex;
+  justify-content: space-between;
+  
+}
+/*
+.menu-top li a:hover {
+  color: royalblue;
+  font-size: 150%;
+  transition: 0.3s;
+}
+*/
+.btn-big:hover {
+  color: royalblue;
+  font-size: 150%;
+  transition: 0.3s;
 }
