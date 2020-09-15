@@ -92,6 +92,7 @@ nav {
   background: url(../images/photo_2020-09-12_19-34-56.jpg) no-repeat  ;
   height: 142px; 
   padding: 20px;
+  background-size: contain;
 }
 .logo {
   border-radius: 50%;
@@ -178,8 +179,13 @@ nav {
   text-align: center;
 }
 
-.button {
-  margin: 0 auto;
+.button-right {
+  width: 25px;
+  float: right;
+}
+.button-center {
+  padding: 40px 50%;
+  width: 25px;
 }
 .list-phone, .list-style {
   padding: 20px;
@@ -259,15 +265,27 @@ padding-left: 60px;
 .float-right {
   float: right;
 }
-.padding-top-60{
-  padding-top: 50px;
-} 
-.padding-top-90 {
-  padding-top: 90px;
+.padding-top-10 {
+  padding-top: 10px;
 }
 .padding-top-30 {
   padding-top: 30px;
 }
-.padding-top-10 {
-  padding-top: 10px;
+.padding-top-50 {
+  padding-top: 50px;
+}
+.padding-top-60{
+  padding-top: 60px;
+} 
+.padding-top-90 {
+  padding-top: 90px;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.page-number-bottom {
+  padding-top: 40px;
 }
