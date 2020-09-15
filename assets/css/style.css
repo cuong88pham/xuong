@@ -56,8 +56,9 @@ body {
 }
 
 .container {
-  width: 960px;
+  
   margin: auto;
+  padding: 0 15px;
 }
 .row{
   clear: both;
@@ -89,17 +90,17 @@ h3 {
 
 /*==========banner==============*/
 nav {
-  background: url(../images/photo_2020-09-12_19-34-56.jpg) no-repeat  ;
+  background: url(../images/photo_2020-09-12_19-34-56.jpg) bottom no-repeat  ;
   height: 142px; 
   padding: 20px;
-  background-size: contain;
+  background-size: cover;
 }
 .logo {
   border-radius: 50%;
   width: 60px;
 }
 .brand {
-  float: right;
+  float: left;
   text-align: center;
 }
 .brand-name {
@@ -121,6 +122,10 @@ nav {
   padding-left: 50px;
   color: black;
 }
+.zoom:hover {
+  color: red;
+  font-size: 20px;
+}
 .shopping-cart {
   height: 25px;
   padding-top: 20px;
@@ -132,8 +137,10 @@ nav {
 
 /*=================main================*/
 .bg-home {
-  background: url(../images/BG.jpg) ;
+  background: url(../images/BG.jpg) no-repeat top center;
   background-size: cover;
+  width: 100%;
+  max-width: 100%;  
 }
 
 .all-products, .menu-products li,.page-number li {
@@ -293,7 +300,6 @@ a {
   text-decoration: none;
   
 }
-.
 .page-number-bottom {
   padding-top: 40px;
 }
@@ -313,4 +319,7 @@ a {
   color: royalblue;
   font-size: 150%;
   transition: 0.3s;
+}
+.clearboth {
+  clear: both;
 }
