@@ -1,4 +1,10 @@
 /*==========Global==============*/
+.menu-top-mobie {
+  display: none;
+}
+.new-arrivals-mobie {
+  display: none;
+}
 .col {
   float: left;
 }
@@ -58,7 +64,7 @@ body {
 .container {
   
   margin: auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 .row{
   clear: both;
@@ -122,20 +128,22 @@ nav {
   padding-left: 50px;
   color: black;
 }
-.zoom:hover {
-  color: red;
-  font-size: 20px;
-}
+
 .shopping-cart {
-  height: 25px;
+
   padding-top: 20px;
   float: right;
 }
+
 /*==============banner===============*/
 
 
 
 /*=================main================*/
+.button-right img, .button-center img {
+  background-color:  gray;
+  border-radius: 50%;
+}
 .bg-home {
   background: url(../images/BG.jpg) no-repeat top center;
   background-size: cover;
@@ -155,6 +163,12 @@ nav {
 .menu-products ul li i {
   padding-left: 10px;
 }
+.sell h2 {
+  text-align: right;
+  padding-top: 90px;
+  padding-right: 30px;
+}
+
 
 .all-products {
   line-height: 45px;
@@ -199,10 +213,7 @@ nav {
   text-align: center;
   width: 100%;
 }
-.list-phone, .list-style {
-  padding: 20px;
 
-}
 .page-number ul li {
   padding-left: 8px;
   font-weight: bold;
@@ -214,21 +225,26 @@ nav {
 
 /*===============footer=================*/
 footer {
+  background: url(../images/footer.jpg) no-repeat;
+  background-size: cover;
   clear: both;
  padding-top: 40px; 
 }
 .contact {
   clear: both;
-  padding: 30px 0 30px 0;
+  padding: 15px 0 40px 0;
 }
 .icon-right {
   float: right;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 #address ul li {
   font-family: "Livvic";
   font-weight: bold;
   font-size: 15px;
+}
+#address ul li {
+  padding-top: 0px;
 }
 #address ul li i {
   padding-right: 5px;
@@ -236,18 +252,7 @@ footer {
 }
 /*==================footer===============*/
 
-.flex-box li {
-  height: 30px;
-  line-height: 30px;
-  padding-top: 40px;
 
-  
-}
-.flex-box img {
-  float: right;
-  padding-right: 10px;
-  padding-top: 6px;
-}
 
 
 strong {
@@ -261,20 +266,38 @@ strong {
   padding: 30px;
 
 }
+.categories {
+  padding-top: 60px;
+}
 
-.categories h2 {
-  padding: 60px 0 ;
-  
+.categories img {
+  float: right;
+  padding-right: 10px;
+
 }
+.categories a {
+  padding-left: 10px;
+}
+.style-categories h3, .devices h3 {
+  padding: 40px 0;
+  }
 .devices {
-  padding-left: 23px;
+  padding-left: 25px;
 }
+.style-categories {
+  padding-left: 60px;
+  }
 .devices i {
   padding-right: 30px;
 }
-.style-categories {
-padding-left: 60px;
+.list-phone, .list-style {
+  padding: 20px 0;
+
 }
+.list-address {
+  padding-bottom: 7px;
+}
+
 .float-right {
   float: right;
 }
@@ -308,18 +331,44 @@ a {
   justify-content: space-between;
   
 }
-/*
+/*=====hover======*/
 .menu-top li a:hover {
   color: royalblue;
-  font-size: 150%;
   transition: 0.3s;
+  padding-top: -10px;
 }
-*/
-.btn-big:hover {
-  color: royalblue;
+.zoom:hover {
   font-size: 150%;
-  transition: 0.3s;
+  color: salmon;
+  font-family: "Livvic";
 }
+.fb-ig i:hover {
+  font-size: 150%;
+  color: green;
+}
+.phone-number>p:hover {
+  font-size: 150%;
+  color: green;
+}
+.list-phone:hover {
+  background-color: #f5d5bc;
+  border-radius: 5%;
+}
+.list-phone a:hover {
+  transition: 0.5s;
+}
+.list-style:hover{
+  background-color:  #cddae3 ;
+  border-radius: 0 50% 50% 0;
+}
+
+
+/*
+.shopping-cart a img:hover {
+  width: 40px;
+}*/
+  
+
 .clearboth {
   clear: both;
 }

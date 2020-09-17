@@ -1,0 +1,265 @@
+@media only screen and (max-width: 740px){
+a {
+    width: 100%;
+    display: block;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.width1 {
+    width: 8.33333333%;
+  }
+  .width2 {
+    width: 16,6666667%;
+  }
+  .width3{
+    width: 25%;
+  }
+  .width4{
+    width: 33.3333333%;
+  }
+  .width5 {
+    width: 41.6666667%;
+  }
+  .width6 {
+    width: 50%;
+  }
+  .width7 {
+    width: 58.3333333%;
+  }
+  .width8 {
+    width: 66.6666667%;
+  }
+  .width9 {
+    width: 75%;
+  }
+  .width10 {
+    width: 83.3333333%;
+  }
+  .width11 {
+    width: 91.6666667%;
+  }
+  .width12 {
+    width: 100%;
+  }
+
+.link-products {
+    display: none;
+}
+.width-100 {
+    width: 100%;
+}
+.page-number {
+    width: 70%;
+    float: right;
+}
+#all-products .product {
+    display: flex;
+    
+}
+.cold-3 {
+    width: 90%;
+}
+.item-img {
+    width: 60%;
+}
+.img-left {
+    float: left;
+}
+.img-right {
+    float: right;
+}
+/*==================banner===============*/
+nav {
+    background: url(../images/photo_2020-09-12_19-34-56.jpg) bottom no-repeat  ;
+    padding: 0px 5px;
+    height: 70px;
+    background-size: cover;
+}
+.menu-top-big {
+    display: none;
+}
+.menu-top-mobie {
+    display: block;
+    padding: 10px;
+    
+}
+.menu-top-mobie .menu-top {
+    position: absolute;
+    display: none;
+    float: right;
+}
+.menu-top-mobie:hover .menu-top {
+    display: block;
+    background-color: #d6baa7;
+    border-radius: 50%;
+}
+.logo-menu {
+    position: relative;
+    display: block;
+}
+
+.menu-top li a:hover {
+    color: #fff;
+
+}
+.menu-top li {
+    width: 100%;
+    padding-top: 10px;
+}
+.menu-top li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: unset;
+}
+.menu-top li a img {
+    float: right;
+    padding-top: 10px;
+    
+}
+.logo {
+    width: 40px;
+    padding: 10px;
+
+}
+.brand-name {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 15px;
+}
+.slogan {
+    font-size: 10px;
+    text-align: left;
+}
+.shopping-cart {
+    padding-top: 15px;
+}
+/*==================banner===============*/
+
+
+/*==================main-new-arrivals===============*/
+.new-arrivals {
+    display: none;
+}
+.new-arrivals-mobie {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.product-mobie {
+    width: 90%;
+    padding: 0 5%;
+}
+.product-mobie .item-img {
+    width: 90%;
+    padding: 10px 5%;
+}
+.product-mobie p {
+    text-align: center;
+    padding: 10px 0;
+}
+.button-right {
+    width: 30px;
+    float: none;
+}
+.button-right img, .button-center img {
+  background-color:  gray;
+  border-radius: 50%;
+}
+.page-home-mobie img {
+    width: 15px;
+    padding: 0 10px;
+}
+.page-home-mobie a {
+    font-size: 15px;
+    
+}
+.page-home-mobie i {
+    width: 25px;
+}
+.page-home-mobie .arrow-right {
+    float: right;
+}
+
+
+/*==================main-new-arrivals===============*/
+
+/*==================main-best-sellers===============*/
+.sell h2 {
+    text-align: left;
+    
+}
+
+/*==================main-best-sellers===============*/
+
+/*==================main-CATEGORIES===============*/
+.categories a {
+    padding-left: 2px;
+    font-size: 10px;
+}
+.categories img {
+    float: right;
+    padding-right: 3px;
+  
+  }
+.devices {
+    clear: left;
+    width: 100%;
+    padding-left: 10px;
+    background: url(../images/photo_2020-09-13_15-19-48.jpg) center no-repeat;
+    background-size: 100% ;
+}
+.devices h3 {
+    padding: 30px 0;
+}
+.list-phone {
+    width: 95%;
+    padding: 10px 0;
+}
+.list-phone img, .list-style img {
+    width: 6px;
+    padding-top: 4px;
+}
+.list-style {
+    width: 100%;
+    padding: 10px 0;
+}
+.style {
+    width: 100%;
+    background: url(../images/photo_2020-09-13_15-19-52.jpg);
+    background-size: 100%;
+}
+.style-categories {
+    width: 66.666666%;
+    padding-left: 10px;
+    
+
+}
+/*==================main-CATEGORIES===============*/
+
+/*==================footer===============*/
+#address {
+    width: 100%;
+}
+.list-address {
+    clear: left;
+    width: 100%;
+}
+/*==================footer===============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
