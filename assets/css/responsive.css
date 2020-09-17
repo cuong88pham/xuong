@@ -239,6 +239,63 @@ nav {
 
 }
 /*==================main-CATEGORIES===============*/
+/*==================main-all-producst===============*/
+.display-none {
+    display: none;
+}
+.menu-products-mobie { /*==================mmenu-all-producst===============*/
+    display: block;
+    float: left;
+    padding: 10px;
+}
+.menu-products {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    display: none;
+    
+}
+.menu-products li {
+    padding-left: 0;
+}
+.icon-menu {
+    position: relative;
+}
+.icon-menu i {
+    padding-left: 10px;
+}
+.icon-menu:hover .menu-products {
+    display: block;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    
+    
+}
+.page-number-top {
+    padding-top: 10px;
+}                                 /*==================mmenu-all-producst===============*/
+
+
+/*==================list-all-producst===============*/
+.page-1 {
+    display: none;
+}
+#all-products .product {
+    display:block;
+}
+#all-products .product .item-img {
+    float: left;
+    width: 50%;
+}
+#all-products .product p, #all-products .product a {
+    float: right;
+}
+
+
+/*==================list-all-producst===============*/
+
+
+/*==================main-producst===============*/
 
 /*==================footer===============*/
 #address {
