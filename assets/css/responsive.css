@@ -80,30 +80,34 @@ nav {
 .menu-top-big {
     display: none;
 }
-.menu-top-mobie {
-    display: block;
+.menu-top-mobie { 
+    display: inline-block;
+    float: left;
     padding: 10px;
-    
-}
-.menu-top-mobie .menu-top {
-    position: absolute;
-    display: none;
-    float: right;
-}
-.menu-top-mobie:hover .menu-top {
-    display: block;
-    background-color: #d6baa7;
-    border-radius: 50%;
-}
-.logo-menu {
     position: relative;
+}
+.dropdown-menu-top ul li a, .dropdown-menu-top ul li img {
+    padding: 0 5px;
+}
+.dropdown-menu-top ul li:hover {
+    background-color: gray;       
+}
+.dropdown-menu-top ul li a:hover {
+    color: #ffff;
+}
+.dropdown-menu-top ul li img:hover{
+    
+    transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transition:1s; 
+}
+
+.menu-top-mobie:hover .dropdown-content {
     display: block;
-}
-
-.menu-top li a:hover {
-    color: #fff;
-
-}
+  }
 .menu-top li {
     width: 100%;
     padding-top: 10px;
@@ -119,6 +123,12 @@ nav {
     padding-top: 10px;
     
 }
+.logo-menu {
+    position: relative;
+    display: block;
+}
+
+
 .logo {
     width: 40px;
     padding: 10px;
@@ -243,36 +253,47 @@ nav {
 .display-none {
     display: none;
 }
-.menu-products-mobie { /*==================mmenu-all-producst===============*/
-    display: block;
+
+/*==================mmenu-all-producst===============*/
+.menu-products-mobie { 
+    display: inline-block;
     float: left;
     padding: 10px;
+    position: relative;
 }
-.sub-menu {
-    width: 100%;
-    padding: 10px;
+.dropdown-content {
+    display: none;
     position: absolute;
-    /*display: none;*/
-    background-color: #fff;
-    border: solid;
+    background-color: #f9f9f9;
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
+.dropdown-content ul li {
+    padding: 10px 0;
+
+}
+.dropdown-content ul li img {
+    float: right;
+}
+
+.menu-products-mobie:hover .dropdown-content {
+  display: block;
+}  
+
 .menu-products li {
     padding-left: 0;
 }
-.icon-menu {
-    position: relative;
+.dropbtn {
+    padding: 10px;
 }
-.icon-menu i {
-    padding-left: 10px;
+.dropbtn:hover {
+    background-color: gray;
+    border-radius: 50%;
 }
 
-.icon-menu:hover .sub-menu {
-    display: block;
-    background-color: #dfdfdf;
-    border-radius: 50%;
     
-    
-}*/
+
 .page-number-top {
     padding-top: 10px;
 }                                 /*==================mmenu-all-producst===============*/
