@@ -248,12 +248,13 @@ nav {
     float: left;
     padding: 10px;
 }
-.menu-products {
+.sub-menu {
     width: 100%;
     padding: 10px;
     position: absolute;
-    display: none;
-    
+    /*display: none;*/
+    background-color: #fff;
+    border: solid;
 }
 .menu-products li {
     padding-left: 0;
@@ -264,13 +265,14 @@ nav {
 .icon-menu i {
     padding-left: 10px;
 }
-.icon-menu:hover .menu-products {
+
+.icon-menu:hover .sub-menu {
     display: block;
     background-color: #dfdfdf;
     border-radius: 50%;
     
     
-}
+}*/
 .page-number-top {
     padding-top: 10px;
 }                                 /*==================mmenu-all-producst===============*/
