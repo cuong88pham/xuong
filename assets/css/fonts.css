@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Bangla-Sangam-MN";
+  src: url("../fonts/Bangla-Sangam-MN/Bangla-Sangam-MN.eot"); /* IE9*/
+  src: url("../fonts/Bangla-Sangam-MN/Bangla-Sangam-MN.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Bangla-Sangam-MN/Bangla-Sangam-MN.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/Bangla-Sangam-MN/Bangla-Sangam-MN.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Bangla-Sangam-MN/Bangla-Sangam-MN.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/Bangla-Sangam-MN/Bangla-Sangam-MN.svg#Bangla Sangam MN Bold") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: Krungthep;
+  src: url(../fonts/Krungthep.ttf);
+}
+
+@font-face {
+  font-family: Menlo;
+  src: url(../fonts/Menlo-Regular.woff)
+}

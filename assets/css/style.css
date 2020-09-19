@@ -1,3 +1,5 @@
+@import "fonts.css";
+
 /*==========Global==============*/
 .menu-top-mobie {
   display: none;
@@ -59,20 +61,29 @@
 .font-YesevaOne {
   font-family: "Yeseva One";
 }
+.font-Krungthep {
+  font-family: "Krungthep";
+}
+.font-Menlo {
+  font-family: "Menlo";
+}
+.d-block {
+  display: block;
+}
 
 body {
   color: black;
+  font-family: "Menlo";
+  font-size: 14px;
 }
 
 .container {
-  
   margin: auto;
   padding: 0 20px;
 }
-.row{
+.row {
   clear: both;
 }
-
 
 .flex-box {
   display: flex;
@@ -84,7 +95,7 @@ body {
 h1 {
   font-size: 40px;
   font-weight: bold;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
 }
 h2 {
   font-size: 22px;
@@ -99,9 +110,9 @@ h3 {
 
 /*==========banner==============*/
 nav {
-  background: url(../images/photo_2020-09-12_19-34-56.jpg) bottom no-repeat  ;
-  height: 142px; 
-  padding: 20px;
+  background: url(../images/bg_header.png) bottom no-repeat  ;
+  min-height: 100px; 
+  padding: 30px 0;
   background-size: cover;
 }
 .logo {
@@ -113,36 +124,62 @@ nav {
   text-align: center;
 }
 .brand-name {
-  font-family: "Livvic";
+  font-family: "Bangla-Sangam-MN";
 }
 .slogan {
-  font-family: "Roboto Mono";
+  font-family: "Menlo";
   font-weight: bold;
   font-size: 12px;
+  padding: 4px 0;
+}
+.menu-top {
+  margin-top: 10px;
 }
 .menu-top li {
-  display: inline-table;
-  padding-top: 30px;
-  font-family: "Yeseva One"
+  display: inline-block;
   
 }
 .menu-top li a {
-  text-decoration: none;
-  padding-left: 50px;
+  display: block;
   color: black;
+  font-family: "Krungthep";
+  padding: 15px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
 }
 
 .shopping-cart {
-
-  padding-top: 20px;
-  float: right;
+  display: block;
+  padding: 15px;
+  position: relative;
+  text-align: right;
 }
 
+.shopping-cart span {
+  background-color: #fff;
+  box-shadow: 2px 2px 8px 0px #a7a7a7;
+  border-radius: 50%;
+  color: #000;
+  font-size: 10px;
+  position: absolute;
+  min-width: 20px;
+  min-height: 20px;
+  text-align: center;
+  line-height: 20px;
+  top: 0;
+  right: 0;
+}
 /*==============banner===============*/
 
 
 
 /*=================main================*/
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .button-right img, .button-center img {
   background-color:  gray;
   border-radius: 50%;
@@ -166,10 +203,10 @@ nav {
 .menu-products ul li i {
   padding-left: 10px;
 }
-.sell h2 {
+.sell {
   text-align: right;
-  padding-top: 90px;
-  padding-right: 30px;
+  /* padding-top: 90px;
+  padding-right: 30px; */
 }
 
 
@@ -228,10 +265,10 @@ nav {
 
 /*===============footer=================*/
 footer {
-  background: url(../images/footer.jpg) no-repeat;
+  background: url(../images/bg_footer.png) top no-repeat;
   background-size: cover;
   clear: both;
- padding-top: 40px; 
+  padding-top: 80px; 
 }
 .contact {
   clear: both;
@@ -374,4 +411,29 @@ a {
 
 .clearboth {
   clear: both;
+}
+
+
+/* Restyle */
+.bg-patern {
+  position: relative;
+  background: url(../images/bg_title1.png) center no-repeat;
+  background-size: contain;
+  width: max-content;
+  padding: 2rem;
+}
+.bg-patern.bg-2 {
+  background: url(../images/bg_title2.png) center no-repeat;
+  background-size: contain;
+}
+.bg-patern.bg-3 {
+  background: url(../images/bg_title3.png) center no-repeat;
+  background-size: contain;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+.ml-auto {
+  margin-left: auto;
 }
