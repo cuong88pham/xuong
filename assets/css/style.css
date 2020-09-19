@@ -126,9 +126,7 @@ nav {
   float: left;
   text-align: center;
 }
-.brand-name {
-  font-family: "Bangla-Sangam-MN";
-}
+
 .slogan {
   font-family: "Menlo";
   font-weight: bold;
@@ -445,13 +443,20 @@ a {
   font-size: 110%;
   color: salmon;
 }
-.fb-ig i:hover {
-  font-size: 150%;
-  color: green;
+.fb-ig a {
+  display: inline-block;
+  transition: ease all .5s;
+  font-size: 1.5rem;
 }
-.phone-number>p:hover {
-  font-size: 150%;
-  color: green;
+.fb-ig a:hover i {
+  color: rgb(92,109,145);
+}
+.phone-number>p {
+    transition: ease all .5s;
+}
+.phone-number>p:hover * {
+  color: rgb(92,109,145);
+  cursor: pointer;
 }
 .list-phone:hover {
   background-color: #f5d5bc;
