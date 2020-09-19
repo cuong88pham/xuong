@@ -17,7 +17,7 @@
   width: 8.33333333%;
 }
 .col-2 {
-  width: 16,6666667%;
+  width: 16.6666667%;
 }
 .col-3 {
   width: 25%;
@@ -71,7 +71,7 @@
   display: block;
 }
 
-body {
+html, * {
   color: black;
   font-family: "Menlo";
   font-size: 14px;
@@ -224,28 +224,49 @@ main {
   vertical-align: middle;
   padding-right: 10px;
 }
-
+.img-fluid {
+  max-width: 100%;
+}
+.img-shadow {
+  box-shadow: 4px 8px 20px 0 rgb(0 0 0 / 0.3);
+}
+.b-radius-50 {
+  border-radius: 50%;
+}
 .item-img {
   width: 100%;
   border-radius: 20%;
 }
+.product-description {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  align-items: flex-end;
+}
+.product-description .product-detail {
 
+}
 .name-product {
-  padding-top: 30px;
-  font-size: 14px;
+  /* padding-top: 30px; */
   font-family: "Tenor Sans";
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .price-product {
   font-family: "Roboto Mono";
-  font-size: 13px;
+  font-size: 1rem;
   font-weight: bold;
   padding-top: 10px;
+  font-size: 1.5rem;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .button-right {
@@ -259,11 +280,10 @@ main {
   width: 100%;
 }
 
-.page-number ul li {
-  padding-left: 8px;
+.page-number ul li a {
+  padding: .5rem;
   font-weight: bold;
 }
-
 
 /*==============main==================*/
 .new-arrivals {
@@ -413,10 +433,15 @@ a {
   transition: 0.3s;
   padding-top: -10px;
 }
-.zoom:hover {
-  font-size: 150%;
+.btn-all-product {
+  display: block;
+  padding: 2rem;
+  transition: .5s ease all;
+  font-weight: bold;
+}
+.zoom:hover, .zoom:hover i {
+  font-size: 110%;
   color: salmon;
-  font-family: "Livvic";
 }
 .fb-ig i:hover {
   font-size: 150%;
@@ -466,10 +491,21 @@ a {
   background: url(../images/bg_title3.png) center no-repeat;
   background-size: contain;
 }
-
+.bg-paging.bg-patern {
+  background: url(../images/bg-paging.png) center no-repeat;
+  background-size: 100%;
+  padding: 4rem 2rem;
+}
+.bg-page-product {
+  background: url(../images/bg-page-product.png) bottom no-repeat;
+  background-size: 100%;
+}
 .mr-0 {
   margin-right: 0;
 }
 .ml-auto {
   margin-left: auto;
+}
+.select {
+  border: none;
 }

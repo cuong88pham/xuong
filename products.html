@@ -1,103 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products</title>
-  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@300&family=Roboto+Mono:wght@300&family=Tenor+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/all.css" />
-  <link rel="stylesheet" href="./assets/css/responsive.css" />
-</head>
-<body>
-
-  <nav>
-
-    <div class="container">
-      <div class="row">
-
-        <div class="menu-top-mobie width2 col"> <!--menu-top-mobie-->
-          <i class="fas fa-bars fa-2x dropbtn"></i>
-          <div class="dropdown-content dropdown-menu-top">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Livvic:wght@300&family=Roboto+Mono:wght@300&family=Tenor+Sans&family=Yeseva+One&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="menu-top-mobie width2 col">
+            <!--menu-top-mobie-->
+            <i class="fas fa-bars fa-2x dropbtn"></i>
+            <div class="dropdown-content dropdown-menu-top">
               <ul>
                 <li>
-                  <a href="./index.html">HOME <img src="./assets/images/arrow.png" width="10" /></a>
+                  <a href="./index.html">HOME <img
+                      src="./assets/images/arrow.png" width="10" /></a>
                 </li>
 
                 <li>
-                  <a href="#">PRODUCTS <img src="./assets/images/arrow.png" width="10" /></a>
+                  <a href="./products.html">PRODUCTS <img
+                      src="./assets/images/arrow.png" width="10" /></a>
                 </li>
 
                 <li>
-                  <a href="#">ABOUT US <img src="./assets/images/arrow.png" width="10" /></a>
+                  <a href="#">ABOUT US <img src="./assets/images/arrow.png"
+                      width="10" /></a>
                 </li>
 
                 <li>
-                  <a href="#">CONTACT <img src="./assets/images/arrow.png" width="10" /></a>
-                </li> 
+                  <a href="#">CONTACT <img src="./assets/images/arrow.png"
+                      width="10" /></a>
+                </li>
 
               </ul>
+            </div>
           </div>
-
-        </div><!--menu-top-mobie-->
-
-
-        <div class="col col-3 width9">
-          <div class="col col-3">
-            <a href="./index.html"><img class="logo" src="assets/images/logo.png" width="60"/></a>
+          <!--menu-top-mobie-->
+          <div class="col col-2 width9">
+            <div class="col col-3">
+              <a href="./index.html"><img class="logo"
+                  src="assets/images/logo.png" width="60" /></a>
+            </div>
+            <div class="col col-9">
+              <a class="btn-big btn-color" href="./index.html">
+                <div class="brand width12">
+                  <h1 class="brand-name">ITS.TUL</h1>
+                  <p class="slogan">phone cases, accessories</p>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="col col-9">
-           
-              <div class="brand width12">
-                <h1 class="brand-name"> <a class="btn-big btn-color" href="./index.html">ITS.TUL</a></h1>
-                <p class="slogan">phone cases, accessories</p> 
-              </div>
-            </a> 
-
+          <div class="col col-8 menu-top-big">
+            <ul class="menu-top text-center">
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./products.html">PRODUCTS</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
           </div>
-              
+          <div class="col col-2 width2">
+            <a class="shopping-cart text-right" href="#">
+              <img src="./assets/images/shopping-cart.png" width="25" />
+              <span>1</span>
+            </a>
+          </div>
         </div>
-
-        <div class="col col-8 menu-top-big">
-          <ul class="menu-top">
-            <li><a href="./index.html">HOME</a></li>
-            <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">CONTACT</a></li>           
-          </ul>
-        </div>       
-        
-        <div class="col col-1 width1">
-          <a class="shopping-cart" href="#">
-            <img  src="./assets/images/shopping-cart.png" width="25"  />
-          </a>
-        </div>
-       
-
       </div>
-    </div> 
-
-  </nav>
-
-
-  <main>
-
-    <div class="container">
-      <div class="row">
-
-        <div class="all-products">
-
-          <div class="display-none col col-2">            
-            <h2><i class="fas fa-angle-left fa-2x"></i> ALL PRODUCTS</h2> 
-          </div>
-
-          <div class="display-none col col-7 dropdown-content">
-            <ul class="menu-products">
-                             
-              <li>               
-                <label for="phone">DEVICES:</label>                        
-                  <select name="phone" id="phone">
+    </nav>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="all-products">
+            <div class="display-none col col-2">
+              <h2><i class="fas fa-angle-left fa-2x"></i> ALL PRODUCTS</h2>
+            </div>
+            <div class="display-none col col-7 dropdown-content">
+              <ul class="menu-products">
+                <li>
+                  <label for="phone">DEVICES:</label>
+                  <select name="phone" id="phone" class="select">
                     <option value="all">all</option>
                     <option value="iPhone 5 - 5s">iPhone 5 - 5s</option>
                     <option value="iPhone 8 - 8 Plus">iPhone 8 - 8 Plus</option>
@@ -105,47 +97,47 @@
                     <option value="iPhone 6 - 6s">iPhone 6 - 6s</option>
                     <option value="iPhone X - XS">iPhone X - XS</option>
                     <option value="iPhone 11 PRO">iPhone 11 PRO</option>
-                    <option value="iPhone 6 Plus - 6s Plus">iPhone 6 Plus - 6s Plus</option>
+                    <option value="iPhone 6 Plus - 6s Plus">iPhone 6 Plus - 6s
+                      Plus</option>
                     <option value="iPhone XR">iPhone XR</option>
                     <option value="iPhone 7 - 7 Plus">iPhone 7 - 7 Plus</option>
                     <option value="AirPods">AirPods</option>
                     <option value="iPhone XS MAX">iPhone XS MAX</option>
                     <option value="iPhone 11 PRO MAX">iPhone 11 PRO MAX</option>
-                  </select>                
-              </li>
-                  
-              <li>
-                DATE ADDED
-                <a href="#">
-                  <i class="fas fa-arrow-up"></i>
-                </a>
-                <a href="#">
-                  <i class="fas fa-arrow-down"></i>
-                </a>  
-              </li>
+                  </select>
+                </li>
 
-              <li>
-                PRICE
-                <a href="#">
-                  <i class="fas fa-arrow-up"></i>
-                </a>
-                <a href="#"> 
-                  <i class="fas fa-arrow-down"></i>
-                </a> 
-              </li> 
+                <li>
+                  DATE ADDED
+                  <a href="#">
+                    <i class="fas fa-arrow-up"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fas fa-arrow-down"></i>
+                  </a>
+                </li>
 
-            </ul>
+                <li>
+                  PRICE
+                  <a href="#">
+                    <i class="fas fa-arrow-up"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fas fa-arrow-down"></i>
+                  </a>
+                </li>
 
-          </div>
+              </ul>
 
-<!--menu-products-mobie-->
-          <div class="menu-products-mobie"> 
-            <i class="fas fa-filter dropbtn"></i>
-            <div class="dropdown-content">
-              <ul>
-                               
-                <li>               
-                  <label for="phone">DEVICES:</label>                        
+            </div>
+            <!--menu-products-mobie-->
+            <div class="menu-products-mobie">
+              <i class="fas fa-filter dropbtn"></i>
+              <div class="dropdown-content">
+                <ul>
+
+                  <li>
+                    <label for="phone">DEVICES:</label>
                     <select name="phone" id="phone">
                       <option value="all">all</option>
                       <option value="iPhone 5 - 5s">iPhone 5 - 5s</option>
@@ -154,365 +146,422 @@
                       <option value="iPhone 6 - 6s">iPhone 6 - 6s</option>
                       <option value="iPhone X - XS">iPhone X - XS</option>
                       <option value="iPhone 11 PRO">iPhone 11 PRO</option>
-                      <option value="iPhone 6 Plus - 6s Plus">iPhone 6 Plus - 6s Plus</option>
+                      <option value="iPhone 6 Plus - 6s Plus">iPhone 6 Plus - 6s
+                        Plus</option>
                       <option value="iPhone XR">iPhone XR</option>
                       <option value="iPhone 7 - 7 Plus">iPhone 7 - 7 Plus</option>
                       <option value="AirPods">AirPods</option>
                       <option value="iPhone XS MAX">iPhone XS MAX</option>
                       <option value="iPhone 11 PRO MAX">iPhone 11 PRO MAX</option>
-                    </select>                
-                </li>
-                    
-                <li>
-                  DATE ADDED
-                  <a href="#">
-                    <i class="fas fa-arrow-up"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fas fa-arrow-down"></i>
-                  </a>  
-                </li>
-  
-                <li>
-                  PRICE
-                  <a href="#">
-                    <i class="fas fa-arrow-up"></i>
-                  </a>
-                  <a href="#"> 
-                    <i class="fas fa-arrow-down"></i>
-                  </a> 
-                </li> 
-  
+                    </select>
+                  </li>
+
+                  <li>
+                    DATE ADDED
+                    <a href="#">
+                      <i class="fas fa-arrow-up"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fas fa-arrow-down"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    PRICE
+                    <a href="#">
+                      <i class="fas fa-arrow-up"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fas fa-arrow-down"></i>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+            <!--menu-products-mobie-->
+            <div class="page-number page-number-top col col-3">
+              <ul class="float-right">
+                <li><a href="#"> <i class="fas fa-angle-left"></i></a></li>
+                <li><a href="#"> 1</a></li>
+                <li><a href="#"> 2</a></li>
+                <li><a href="#"> 3</a></li>
+                <li><a href="#"> 4</a></li>
+                <li><a href="#"> 5</a></li>
+                <li><a href="#"> 6</a></li>
+                <li><a href="#"> 7</a></li>
+                <li><a href="#"> ...</a></li>
+                <li><a href="#"> <i class="fas fa-angle-right"></i></a></li>
               </ul>
-  
+
             </div>
-
-          </div>
-<!--menu-products-mobie-->
-          <div class="page-number page-number-top col col-3 ">
-            <ul class="float-right">
-              <li><a href="#"> <i class="fas fa-angle-left"></i></a></li>
-              <li><a href="#"> 1</a></li>
-              <li><a href="#"> 2</a></li>
-              <li><a href="#"> 3</a></li>
-              <li><a href="#"> 4</a></li>
-              <li><a href="#"> 5</a></li>
-              <li><a href="#"> 6</a></li>
-              <li><a href="#"> 7</a></li>
-              <li><a href="#"> ...</a></li>
-              <li><a href="#"> <i class="fas fa-angle-right"></i></a></li>
-            </ul>
-
           </div>
         </div>
       </div>
-    </div> 
-    
-    
-    <div class="container">   
-      <div class="row"> 
-        <div id="all-products">
-            <div class="col col-3 width12 page-1">
-              <div class="product">
-                <img src="./assets/images/IMG_2704.JPG" class="item-img">
-                <p class="name-product">ANIMAL PLANET</p>
-                <p class="price-product" >
-                  A$10 ea 
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
-              </div>
-            </div>
-            <div class="col col-3 width12 page-1">
-              <div class="product">
-                <img src="./assets/images/IMG_2705.JPG" class="item-img">
-                <p class="name-product">MONSTER INC</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
-              </div>
-            </div>
 
-            <div class="col col-3 width12 page-1">
-              <div class="product">
-                <img src="./assets/images/IMG_2710.JPG" class="item-img">
-                <p class="name-product">BLACK AND WHITE</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+      <section class="col col-12 bg-page-product">
+        <div class="container">
+          <div id="all-products">
+            <div class="row">
+              <div class="col col-3 width12 page-1">
+                <div class="product">
+                  <img src="./assets/images/IMG_2704.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">ANIMAL PLANET</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
+              <div class="col col-3 width12 page-1">
+                <div class="product">
+                  <img src="./assets/images/IMG_2705.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">MONSTER INC</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-3 width12 page-1">
+                <div class="product">
+                  <img src="./assets/images/IMG_2710.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">BLACK AND WHITE</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-            <div class="col col-3 width12 page-1">
-              <div class="product">
-                <img src="./assets/images/IMG_2716.JPG" class="item-img">
-                <p class="name-product">QUOTES</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+              <div class="col col-3 width12 page-1">
+                <div class="product">
+                  <img src="./assets/images/IMG_2716.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">QUOTES</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="col col-3 width12 page-1">
-              <div class="product">
-                <img src="./assets/images/IMG_2707.JPG" class="item-img">
-                <p class="name-product">BLACK AND ORANGE</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
-              </div>
-            </div>
+              <div class="col col-3 width12 page-1">
+                <div class="product">
+                  <img src="./assets/images/IMG_2707.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">BLACK AND ORANGE</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
 
-            <div class="col col-3 width12 page-1">
-              <div class="product">
-                <img src="./assets/images/IMG_2714.JPG" class="item-img">
-                <p class="name-product">KEEP SMILE</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+                </div>
               </div>
-            </div>
 
-            <div class="col col-3 width12 page-2">
-              <div class="product">
-                <img src="./assets/images/IMG_2718.JPG" class="item-img">
-                <p class="name-product">FLORAL CLEAR CASE</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+              <div class="col col-3 width12 page-1">
+                <div class="product">
+                  <img src="./assets/images/IMG_2714.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">KEEP SMILE</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="col col-3 width12 page-2">
-              <div class="product">
-                <img src="./assets/images/IMG_2722.JPG" class="item-img">
-                <p class="name-product">PIGGY</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+              <div class="col col-3 width12 page-2">
+                <div class="product">
+                  <img src="./assets/images/IMG_2718.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">FLORAL CLEAR CASE</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="col col-3 width12 page-2">
-              <div class="product">
-                <img src="./assets/images/IMG_2703.JPG" class="item-img">
-                <p class="name-product">MARCH SET (AIRPODS)</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+              <div class="col col-3 width12 page-2">
+                <div class="product">
+                  <img src="./assets/images/IMG_2722.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">PIGGY</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="col col-3 width12 page-2">
-              <div class="product">
-                <img src="./assets/images/IMG_2717.JPG" class="item-img">
-                <p class="name-product">STICKER CLEAR CASE</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+              <div class="col col-3 width12 page-2">
+                <div class="product">
+                  <img src="./assets/images/IMG_2703.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">MARCH SET (AIRPODS)</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
+              <div class="col col-3 width12 page-2">
+                <div class="product">
+                  <img src="./assets/images/IMG_2717.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">STICKER CLEAR CASE</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-            <div class="col col-3 width12 page-2">
-              <div class="product">
-                <img src="./assets/images/IMG_2720.JPG" class="item-img">
-                <p class="name-product">FLUFFLY PUPPY</p>
-                <p class="price-product">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+              <div class="col col-3 width12 page-2">
+                <div class="product">
+                  <img src="./assets/images/IMG_2720.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">FLUFFLY PUPPY</p>
+                      <p class="price-product">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="col col-3 width12 page-2">
-              <div class="product">
-                <img src="./assets/images/IMG_2721.JPG" class="item-img">
-                <p class="name-product">FRUITY JUICY</p>
-                <p class="price-product price-product-all ">
-                  A$10 ea
-                  <a class="bnt-hover-shopping" href="#">
-                    <img src="./assets/images/addbutton.png" class="button-right">
-                  </a>
-                </p>
+              <div class="col col-3 width12 page-2">
+                <div class="product">
+                  <img src="./assets/images/IMG_2721.JPG" class="item-img">
+                  <div class="product-description">
+                    <div class="product-detail">
+                      <p class="name-product">FRUITY JUICY</p>
+                      <p class="price-product price-product-all">
+                        A$10 ea
+                      </p>
+                    </div>
+                    <a class="bnt-hover-shopping" href="#">
+                      <img src="./assets/images/addbutton.png" width="30"
+                        class="img-shadow b-radius-50">
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-         
+          </div>
+          <div class="row">
+            <div class="page-number page-number-bottom col col-12
+              padding-top-50">
+              <ul class="float-right bg-paging bg-patern">
+                <li><a href="#"> <i class="fas fa-angle-left"></i></a></li>
+                <li><a href="#"> 1</a></li>
+                <li><a href="#"> 2</a></li>
+                <li><a href="#"> 3</a></li>
+                <li><a href="#"> 4</a></li>
+                <li><a href="#"> 5</a></li>
+                <li><a href="#"> 6</a></li>
+                <li><a href="#"> 7</a></li>
+                <li><a href="#"> ...</a></li>
+                <li><a href="#"> <i class="fas fa-angle-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>  
-    </div>
-
-
-    <div class="container ">
-      <div class="row">
-        <div class="page-number page-number-bottom col col-12 padding-top-50">
-          <ul class="float-right">
-            <li><a href="#"> <i class="fas fa-angle-left"></i></a></li>
-              <li><a href="#"> 1</a></li>
-              <li><a href="#"> 2</a></li>
-              <li><a href="#"> 3</a></li>
-              <li><a href="#"> 4</a></li>
-              <li><a href="#"> 5</a></li>
-              <li><a href="#"> 6</a></li>
-              <li><a href="#"> 7</a></li>
-              <li><a href="#"> ...</a></li>
-              <li><a href="#"> <i class="fas fa-angle-right"></i></a></li>
-          </ul>
-
-        </div>
-
-      </div>
-    </div>   
-
-
-    <div class="container">
+      </section>
       <div class="row">
         <div class="categories">
-          <h2>CATEGORIES</h2>
-
+          <h2 class="font-krungthep bg-patern bg-3">CATEGORIES</h2>
           <div class="col col-7 devices">
-
             <h3>DEVICES</h3>
-
-
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone 5 - 5s <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
-              </div>   
-
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone 8 - 8 Plus <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone 5 - 5s <img src="./assets/images/arrow.png" width="10"
+                    />
+                </a>
               </div>
-
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone XR <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone 8 - 8 Plus <img src="./assets/images/arrow.png"
+                    width="10" />
+                </a>
               </div>
+            </div>
 
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone 6 - 6s <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone XR <img src="./assets/images/arrow.png" width="10" />
+                </a>
               </div>
+            </div>
 
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone X - XS <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone 6 - 6s <img src="./assets/images/arrow.png" width="10"
+                    />
+                </a>
               </div>
+            </div>
 
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone 11 PRO <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone X - XS <img src="./assets/images/arrow.png" width="10"
+                    />
+                </a>
               </div>
+            </div>
 
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone 6 Plus - 6s Plus <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone 11 PRO <img src="./assets/images/arrow.png" width="10"
+                    />
+                </a>
               </div>
+            </div>
 
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone XR  <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone 6 Plus - 6s Plus <img src="./assets/images/arrow.png"
+                    width="10" />
+                </a>
               </div>
+            </div>
 
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone 11 PRO MAX <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone XR <img src="./assets/images/arrow.png" width="10" />
+                </a>
               </div>
-              
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone 7 - 7 Plus <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div> 
-              </div>
+            </div>
 
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    iPhone XS MAX <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div> 
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone 11 PRO MAX <img src="./assets/images/arrow.png"
+                    width="10" />
+                </a>
               </div>
+            </div>
 
-              <div class="col col-4">
-                <div class="col col-9 list-phone">
-                  <a href="#">
-                    AirPods  <img src="./assets/images/arrow.png" width="10" />
-                  </a>
-                </div>
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone 7 - 7 Plus <img src="./assets/images/arrow.png"
+                    width="10" />
+                </a>
               </div>
+            </div>
 
-            
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  iPhone XS MAX <img src="./assets/images/arrow.png" width="10"
+                    />
+                </a>
+              </div>
+            </div>
+
+            <div class="col col-4">
+              <div class="col col-9 list-phone">
+                <a href="#">
+                  AirPods <img src="./assets/images/arrow.png" width="10" />
+                </a>
+              </div>
+            </div>
+
+            <div class="clearboth"></div>
           </div>
-         
-          
-          <div class="col col-4 style ">
+
+
+          <div class="col col-4 style">
             <div class="style-categories">
-                
+
               <h3>STYLES</h3>
-            
+
               <div class="col col-7 width6">
                 <div class="col col-7 list-style">
                   <a href="#">
-                    Minimalistic <img src="./assets/images/arrow.png" width="10" />
+                    Minimalistic <img src="./assets/images/arrow.png" width="10"
+                      />
                   </a>
                 </div>
               </div>
@@ -534,69 +583,67 @@
               </div>
 
               <div class="col col-7 width6">
-                <div class="col col-7 list-style">              
+                <div class="col col-7 list-style">
                   <a href="#">
                     Silicone <img src="./assets/images/arrow.png" width="10" />
                   </a>
-                </div>               
+                </div>
               </div>
 
-            </div>          
+            </div>
           </div>
-
+          <div class="clearboth"></div>
         </div>
       </div>
-    </div>
-
-  </main>
+    </main>
 
 
-  <footer>
+    <footer>
 
-    <div class="container">
-      <div class="row">
-        <div id="address" class="col col-6">
-            
-              <div class="col col-6 list-address">
-                <i class="fas fa-map-marker-alt"></i>
-                212A Vo Van Tan F.5 Q.3
-              </div>   
+      <div class="container">
+        <div class="row">
+          <div id="address" class="col col-6">
 
-              <div class="col col-6 list-address">
-                <i class="fas fa-map-marker-alt"></i>
-                The New PlayGround - 26 Ly Tu 
-              </div>
+            <div class="col col-6 list-address">
+              <i class="fas fa-map-marker-alt"></i>
+              212A Vo Van Tan F.5 Q.3
+            </div>
 
-              <div class="col col-6 list-address">
-                <i class="fas fa-map-marker-alt"></i>
-                56 Tran Quang Dieu F.14 Q.3
-              </div>
+            <div class="col col-6 list-address">
+              <i class="fas fa-map-marker-alt"></i>
+              The New PlayGround - 26 Ly Tu
+            </div>
 
-              <div class="col col-6 list-address">
-                <i class="fas fa-map-marker-alt"></i>
-                Vincom Ba Trieu 7th Floor
-              </div>
-        
-        </div>
-        <div class="contact">
+            <div class="col col-6 list-address">
+              <i class="fas fa-map-marker-alt"></i>
+              56 Tran Quang Dieu F.14 Q.3
+            </div>
 
-          <div class="phone-number col col-8">
-            <p><i class="fas fa-phone-alt"></i> <strong>+84 90 244 33 72</strong></p>
+            <div class="col col-6 list-address">
+              <i class="fas fa-map-marker-alt"></i>
+              Vincom Ba Trieu 7th Floor
+            </div>
+
           </div>
-          <div class="fb-ig col col-4">
-            <a href="#">
-              <i class="fab fa-facebook-f icon-right"></i>
-            </a>
+          <div class="contact">
 
-            <a href="#">
-              <i class="fab fa-instagram icon-right"></i>
-            </a>
+            <div class="phone-number col col-8">
+              <p><i class="fas fa-phone-alt"></i> <strong>+84 90 244 33 72</strong></p>
+            </div>
+            <div class="fb-ig col col-4">
+              <a href="#">
+                <i class="fab fa-facebook-f icon-right"></i>
+              </a>
+
+              <a href="#">
+                <i class="fab fa-instagram icon-right"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  
-</body>
+
+  </body>
 </html>

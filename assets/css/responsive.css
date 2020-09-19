@@ -219,7 +219,7 @@ nav {
     clear: left;
     width: 100%;
     padding-left: 10px;
-    background: url(../images/photo_2020-09-13_15-19-48.jpg) center no-repeat;
+    /* background: url(../images/photo_2020-09-13_15-19-48.jpg) center no-repeat; */
     background-size: 100% ;
 }
 .devices h3 {
@@ -239,7 +239,7 @@ nav {
 }
 .style {
     width: 100%;
-    background: url(../images/photo_2020-09-13_15-19-52.jpg);
+    /* background: url(../images/photo_2020-09-13_15-19-52.jpg); */
     background-size: 100%;
 }
 .style-categories {
