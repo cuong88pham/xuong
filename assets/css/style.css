@@ -175,9 +175,14 @@ nav {
 
 
 /*=================main================*/
+#wrapper{
+  min-height: 100vh;
+  height: 100vh;
+  position: relative;
+
+}
 main {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  
 }
 
 .button-right img, .button-center img {
@@ -261,14 +266,35 @@ main {
 
 
 /*==============main==================*/
+.new-arrivals {
+  background: url('../images/bg-new-arrivals.jpg') no-repeat top center;
+   background-size: cover;
+   padding: 64px 0px;
+}
 
+.best-sellers-1 {
+  background: url('../images/bg-best-seller-1.jpg') no-repeat bottom center;
+  background-size: contain;
+}
 
+.best-sellers-2 {
+  background: url('../images/bg-best-seller-2.jpg') no-repeat bottom center;
+  background-size: contain;
+}
+.best-sellers-3 {
+  background: url('../images/bg-best-seller-3.png') no-repeat bottom center;
+  background-size: contain;
+}
 /*===============footer=================*/
 footer {
   background: url(../images/bg_footer.png) top no-repeat;
   background-size: cover;
   clear: both;
   padding-top: 80px; 
+  height: 120px;
+  
+  width: 100%;
+  
 }
 .contact {
   clear: both;
@@ -318,11 +344,21 @@ strong {
 .categories a {
   padding-left: 10px;
 }
+.style {
+  background: url('../images/bg-styles.jpg') no-repeat left center;
+  background-size: contain;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .style-categories h3, .devices h3 {
   padding: 40px 0;
   }
 .devices {
   padding-left: 25px;
+  background: url('../images/bg-devices.jpg') no-repeat left center;
+  background-size: contain;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .style-categories {
   padding-left: 60px;
