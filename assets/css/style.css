@@ -70,6 +70,9 @@
 .d-block {
   display: block;
 }
+.relative {
+  position: relative;
+}
 
 html, * {
   color: black;
@@ -151,7 +154,7 @@ nav {
 
 .shopping-cart {
   display: block;
-  padding: 15px;
+  padding: 10px;
   position: relative;
   text-align: right;
 }
@@ -180,9 +183,6 @@ nav {
   height: 100vh;
   position: relative;
 
-}
-main {
-  
 }
 
 .button-right img, .button-center img {
@@ -510,4 +510,103 @@ a {
 }
 .select {
   border: none;
+}
+
+/* shopping-cart-dropdown */
+.shopping-cart-container {
+  position: relative;
+}
+.shopping-cart-container .img-wrapper {
+  width: max-content;
+  margin-right: 0;
+  margin-left: auto;
+  background: transparent;
+  border-radius: 50%;
+  padding: 8px;
+  transition: ease all .5s;
+}
+.shopping-cart-dropdown {
+  display: none;
+  height: 0;
+  transition: ease all .5s;
+}
+.shopping-cart-container:hover .img-wrapper {
+  background: rgb(0 0 0 / 14%);
+}
+
+.shopping-cart-container:hover .shopping-cart-dropdown {
+  display: block;
+  height: max-content;
+}
+
+.shopping-cart-dropdown .cart-detail {
+  background: #fff;
+  box-shadow: 2px 2px 6px 0px #9a9a9a;
+  padding: 1rem;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.shopping-cart-dropdown .cart-detail .item {
+  display: flex;
+  padding-bottom: .5rem;
+}
+.shopping-cart-dropdown .cart-detail .item:last-child {
+  padding-bottom: 0;
+}
+.shopping-cart-dropdown .cart-detail .item .thumb {
+  padding: .5rem;
+}
+.shopping-cart-dropdown .cart-detail .item .thumb img {
+  border-radius: 4px;
+}
+.shopping-cart-dropdown .cart-detail .item .item-detail {
+  padding: .5rem;
+}
+.shopping-cart-dropdown .cart-detail .item .item-detail p {
+  margin-bottom: 10px;
+}
+.shopping-cart-dropdown .cart-detail .item .quantity {
+  display: flex;
+  align-items: center;
+}
+.shopping-cart-dropdown .cart-detail .item .quantity .count-product {
+  display: flex;
+  padding-left: .5rem;
+}
+.shopping-cart-dropdown .cart-detail .item .quantity .value {
+  line-height: 20px;
+  padding: 0 0.5rem;
+}
+.shopping-cart-dropdown .cart-detail .item .quantity button {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: transparent;
+  padding: 0;
+  font-size: 10px;
+
+}
+.shopping-cart-dropdown .cart-detail .item .price {
+  padding: .5rem;
+}
+
+.shopping-cart-dropdown .cart-detail .total{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.divider {
+  clear: both;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  margin: 1rem auto;
 }
