@@ -228,6 +228,7 @@ nav {
 .list-phone {
     width: 95%;
     padding: 10px 0;
+    font-family: 'Tenor Sans';
 }
 .list-phone img, .list-style img {
     width: 6px;
@@ -266,8 +267,8 @@ nav {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 320px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,40);
+    z-home: 1;
 }
 .dropdown-content ul li {
     padding: 10px 0;

@@ -61,12 +61,6 @@
 .font-YesevaOne {
   font-family: "Yeseva One";
 }
-.font-Krungthep {
-  font-family: "Krungthep";
-}
-.font-Menlo {
-  font-family: "Menlo";
-}
 .d-block {
   display: block;
 }
@@ -76,7 +70,7 @@
 
 html, * {
   color: black;
-  font-family: "Menlo";
+  font-family: "Tenor Sans";
   font-size: 14px;
 }
 
@@ -96,19 +90,28 @@ html, * {
 
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5vw;
   font-weight: bold;
   /* letter-spacing: 2px; */
 }
 h2 {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   text-indent: 10px;
   font-family: "Yeseva One";
 }
 h3 {
-  font-family: "Yeseva One";
+  font-family: "Tenor Sans";
   font-size: 20px;
+}
+
+p{
+  font-size: 1vw;
+}
+
+.fas {
+  padding-left: 0px;
+  padding-bottom: 4px;
 }
 
 /*==========banner==============*/
@@ -117,6 +120,7 @@ nav {
   min-height: 100px; 
   padding: 30px 0;
   background-size: cover;
+  background-size: 100%;;
 }
 .logo {
   border-radius: 50%;
@@ -128,7 +132,7 @@ nav {
 }
 
 .slogan {
-  font-family: "Menlo";
+  font-family: "Roboto Mono";
   font-weight: bold;
   font-size: 12px;
   padding: 4px 0;
@@ -143,7 +147,7 @@ nav {
 .menu-top li a {
   display: block;
   color: black;
-  font-family: "Krungthep";
+  font-family: "Yeseva One";
   padding: 15px;
   text-decoration: none;
   letter-spacing: 2px;
@@ -180,7 +184,6 @@ nav {
   min-height: 100vh;
   height: 100vh;
   position: relative;
-
 }
 
 .button-right img, .button-center img {
@@ -190,7 +193,8 @@ nav {
   background: url(../images/BG.jpg) no-repeat bottom center;
   background-size: cover;
   width: 100%;
-  max-width: 100%;  
+  max-width: 100%; 
+  background-attachment: fixed; 
 }
 
 .all-products, .menu-products li,.page-number li {
@@ -202,7 +206,7 @@ nav {
 }
 .menu-products li {
   display: inline-table;
-  padding-left: 30px;
+  padding-left: 60px;
 }
 
 .menu-products ul li i {
@@ -212,6 +216,10 @@ nav {
   text-align: right;
   /* padding-top: 90px;
   padding-right: 30px; */
+}
+.select{
+  border:none;
+  width: max-content;
 }
 
 
@@ -227,6 +235,9 @@ nav {
 .img-fluid {
   max-width: 100%;
 }
+.btn-hover-shopping{
+  padding-left: 3vw;
+}
 .img-shadow {
   box-shadow: 4px 8px 20px 0 rgb(0 0 0 / 0.3);
 }
@@ -234,8 +245,8 @@ nav {
   border-radius: 50%;
 }
 .item-img {
-  width: 100%;
-  border-radius: 20%;
+  border-radius: 10%;
+  
 }
 .product-description {
   display: flex;
@@ -304,6 +315,7 @@ nav {
 .best-sellers-3 {
   background: url('../images/bg-best-seller-3.png') no-repeat bottom center;
   background-size: contain;
+  padding-bottom: 20px;
 }
 /*===============footer=================*/
 footer {
@@ -389,9 +401,11 @@ strong {
 .list-phone, .list-style {
   padding: 20px 0;
 
+
 }
 .list-address {
   padding-bottom: 7px;
+  font-family: 'Roboto Mono';
 }
 
 .float-right {
@@ -429,7 +443,8 @@ a {
 }
 /*=====hover======*/
 .menu-top li a:hover {
-  color: royalblue;
+  color: rgb(92, 109, 145);
+  font-size: 110%;
   transition: 0.3s;
   padding-top: -10px;
 }
@@ -441,7 +456,7 @@ a {
 }
 .zoom:hover, .zoom:hover i {
   font-size: 110%;
-  color: salmon;
+  color:rgb(92, 109, 145);
 }
 .fb-ig a {
   display: inline-block;
@@ -451,10 +466,11 @@ a {
 .fb-ig a:hover i {
   color: rgb(92,109,145);
 }
-.phone-number>p {
+.phone-number p {
     transition: ease all .5s;
+    font-family: 'Roboto Mono';
 }
-.phone-number>p:hover * {
+.phone-number p:hover * {
   color: rgb(92,109,145);
   cursor: pointer;
 }
@@ -546,9 +562,9 @@ a {
 
 .shopping-cart-dropdown .cart-detail {
   background: #fff;
-  box-shadow: 2px 2px 6px 0px #9a9a9a;
+  box-shadow: 4px 8px 20px 0 rgb(0 0 0 / 0.3);
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 30px;
   position: absolute;
   right: 0;
   top: 50px;
@@ -565,17 +581,24 @@ a {
   padding: .5rem;
 }
 .shopping-cart-dropdown .cart-detail .item .thumb img {
-  border-radius: 4px;
+  border-radius: 20%;
+  box-shadow: 4px 8px 20px 0 rgb(0 0 0 / 0.3)
 }
 .shopping-cart-dropdown .cart-detail .item .item-detail {
   padding: .5rem;
 }
 .shopping-cart-dropdown .cart-detail .item .item-detail p {
   margin-bottom: 10px;
+  font-family: 'Tenor Sans';
+}
+.shopping-cart-dropdown .cart-detail .item-detail .item-number {
+  margin-bottom: 10px;
+  font-family: 'Roboto Mono';
 }
 .shopping-cart-dropdown .cart-detail .item .quantity {
   display: flex;
   align-items: center;
+  font-family: 'Tenor Sans';
 }
 .shopping-cart-dropdown .cart-detail .item .quantity .count-product {
   display: flex;
@@ -584,6 +607,7 @@ a {
 .shopping-cart-dropdown .cart-detail .item .quantity .value {
   line-height: 20px;
   padding: 0 0.5rem;
+  font-family: 'Roboto Mono';
 }
 .shopping-cart-dropdown .cart-detail .item .quantity button {
   width: 20px;
@@ -599,14 +623,25 @@ a {
 }
 .shopping-cart-dropdown .cart-detail .item .price {
   padding: .5rem;
+  font-family: 'Roboto Mono';
 }
 
 .shopping-cart-dropdown .cart-detail .total{
   display: flex;
   justify-content: space-between;
   padding-bottom: 1rem;
+  font-family: 'Tenor Sans';
 }
-
+.shopping-cart-dropdown .cart-detail .total-price .total-price-number{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  font-family: 'Roboto Mono';
+}
+.total-price{
+  display: flex;
+  justify-content: space-between;
+}
 .divider {
   clear: both;
   display: block;
@@ -615,7 +650,24 @@ a {
   background: #ccc;
   margin: 1rem auto;
 }
+.TCS{
+  padding-top: 20px;
+  font-size: 2vw;
+}
+.facebook-link{
+  padding-top: 10px;
+}
+.instagram-link{
+  padding-top: 10px;
+}
+.R{
+  padding-top: 20px;
+  font-size: 2vw;
+}
+.icon-link{
+  padding-top: 10px;
 
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -631,7 +683,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: salmon;
+  background-color: rgb(92, 109, 145);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -639,7 +691,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a lighter blue color */
 input[type=submit]:hover {
-  background-color: salmon;
+  background-color: rgb(202, 215, 225);
 }
