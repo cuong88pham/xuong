@@ -120,7 +120,14 @@ nav {
   min-height: 100px; 
   padding: 30px 0;
   background-size: cover;
-  background-size: 100%;;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+main {
+  margin-top: 160px;
 }
 .logo {
   border-radius: 50%;
@@ -695,3 +702,4 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: rgb(202, 215, 225);
 }
+

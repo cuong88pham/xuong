@@ -297,7 +297,8 @@ nav {
 
 .page-number-top {
     padding-top: 10px;
-}                                 /*==================mmenu-all-producst===============*/
+}
+/*==================mmenu-all-producst===============*/
 
 
 /*==================list-all-producst===============*/
@@ -330,17 +331,23 @@ nav {
     width: 100%;
 }
 /*==================footer===============*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+/* Update responsive */
+/* Medium devices */
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+  .nav {
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+}
+
+/* Small devices */
+@media screen and (max-width: 767px) {}
+
+
+/* extra small devices */
+@media screen and (max-width: 680px) {}
