@@ -68,7 +68,8 @@
   position: relative;
 }
 
-html, * {
+html,
+* {
   color: black;
   font-family: "Tenor Sans";
   font-size: 14px;
@@ -88,7 +89,6 @@ html, * {
 }
 /*==========Global==============*/
 
-
 h1 {
   font-size: 2.5vw;
   font-weight: bold;
@@ -105,8 +105,8 @@ h3 {
   font-size: 20px;
 }
 
-p{
-  font-size: 1vw;
+p {
+  font-size: 1rem;
 }
 
 .fas {
@@ -116,8 +116,8 @@ p{
 
 /*==========banner==============*/
 nav {
-  background: url(../images/bg_header.png) bottom no-repeat  ;
-  min-height: 100px; 
+  background: url(../images/bg_header.png) bottom no-repeat;
+  min-height: 100px;
   padding: 30px 0;
   background-size: cover;
   position: fixed;
@@ -149,7 +149,6 @@ main {
 }
 .menu-top li {
   display: inline-block;
-  
 }
 .menu-top li a {
   display: block;
@@ -184,27 +183,28 @@ main {
 }
 /*==============banner===============*/
 
-
-
 /*=================main================*/
-#wrapper{
+#wrapper {
   min-height: 100vh;
   height: 100vh;
   position: relative;
 }
 
-.button-right img, .button-center img {
+.button-right img,
+.button-center img {
   border-radius: 50%;
 }
 .bg-home {
   background: url(../images/BG.jpg) no-repeat bottom center;
   background-size: cover;
   width: 100%;
-  max-width: 100%; 
-  background-attachment: fixed; 
+  max-width: 100%;
+  background-attachment: fixed;
 }
 
-.all-products, .menu-products li,.page-number li {
+.all-products,
+.menu-products li,
+.page-number li {
   display: inline-block;
 }
 .py-2 {
@@ -224,11 +224,10 @@ main {
   /* padding-top: 90px;
   padding-right: 30px; */
 }
-.select{
-  border:none;
+.select {
+  border: none;
   width: max-content;
 }
-
 
 .all-products {
   line-height: 45px;
@@ -242,7 +241,7 @@ main {
 .img-fluid {
   max-width: 100%;
 }
-.btn-hover-shopping{
+.btn-hover-shopping {
   padding-left: 3vw;
 }
 .img-shadow {
@@ -253,7 +252,6 @@ main {
 }
 .item-img {
   border-radius: 10%;
-  
 }
 .product-description {
   display: flex;
@@ -262,7 +260,6 @@ main {
   align-items: flex-end;
 }
 .product-description .product-detail {
-
 }
 .name-product {
   /* padding-top: 30px; */
@@ -299,28 +296,28 @@ main {
 }
 
 .page-number ul li a {
-  padding: .5rem;
+  padding: 0.5rem;
   font-weight: bold;
 }
 
 /*==============main==================*/
 .new-arrivals {
-  background: url('../images/bg-new-arrivals.jpg') no-repeat top center;
-   background-size: cover;
-   padding: 64px 0px;
+  background: url("../images/bg-new-arrivals.jpg") no-repeat top center;
+  background-size: cover;
+  padding: 64px 0px;
 }
 
 .best-sellers-1 {
-  background: url('../images/bg-best-seller-1.jpg') no-repeat bottom center;
+  background: url("../images/bg-best-seller-1.jpg") no-repeat bottom center;
   background-size: contain;
 }
 
 .best-sellers-2 {
-  background: url('../images/bg-best-seller-2.jpg') no-repeat bottom center;
+  background: url("../images/bg-best-seller-2.jpg") no-repeat bottom center;
   background-size: contain;
 }
 .best-sellers-3 {
-  background: url('../images/bg-best-seller-3.png') no-repeat bottom center;
+  background: url("../images/bg-best-seller-3.png") no-repeat bottom center;
   background-size: contain;
   padding-bottom: 20px;
 }
@@ -329,11 +326,10 @@ footer {
   background: url(../images/bg_footer.png) top no-repeat;
   background-size: cover;
   clear: both;
-  padding-top: 80px; 
+  padding-top: 80px;
   height: 120px;
-  
+
   width: 100%;
-  
 }
 .contact {
   clear: both;
@@ -353,12 +349,8 @@ footer {
 }
 #address ul li i {
   padding-right: 5px;
-
 }
 /*==================footer===============*/
-
-
-
 
 strong {
   font-weight: bold;
@@ -369,7 +361,6 @@ strong {
 
 .padding-30 {
   padding: 30px;
-
 }
 .categories {
   padding-top: 60px;
@@ -378,41 +369,40 @@ strong {
 .categories img {
   float: right;
   padding-right: 10px;
-
 }
 .categories a {
   padding-left: 10px;
 }
 .style {
-  background: url('../images/bg-styles.jpg') no-repeat left center;
+  background: url("../images/bg-styles.jpg") no-repeat left center;
   background-size: contain;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.style-categories h3, .devices h3 {
+.style-categories h3,
+.devices h3 {
   padding: 40px 0;
-  }
+}
 .devices {
   padding-left: 25px;
-  background: url('../images/bg-devices.jpg') no-repeat left center;
+  background: url("../images/bg-devices.jpg") no-repeat left center;
   background-size: contain;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .style-categories {
   padding-left: 60px;
-  }
+}
 .devices i {
   padding-right: 30px;
 }
-.list-phone, .list-style {
+.list-phone,
+.list-style {
   padding: 20px 0;
-
-
 }
 .list-address {
   padding-bottom: 7px;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
 }
 
 .float-right {
@@ -427,18 +417,16 @@ strong {
 .padding-top-50 {
   padding-top: 50px;
 }
-.padding-top-60{
+.padding-top-60 {
   padding-top: 60px;
-} 
+}
 .padding-top-90 {
   padding-top: 90px;
 }
 
-
 a {
   color: black;
   text-decoration: none;
-  
 }
 .page-number-bottom {
   padding-top: 40px;
@@ -446,7 +434,6 @@ a {
 .price-product-all {
   display: flex;
   justify-content: space-between;
-  
 }
 /*=====hover======*/
 .menu-top li a:hover {
@@ -458,27 +445,31 @@ a {
 .btn-all-product {
   display: block;
   padding: 2rem;
-  transition: .5s ease all;
+  transition: 0.5s ease all;
   font-weight: bold;
 }
-.zoom:hover, .zoom:hover i {
+.zoom:hover,
+.zoom:hover i {
   font-size: 110%;
-  color:rgb(92, 109, 145);
+  color: rgb(92, 109, 145);
 }
 .fb-ig a {
   display: inline-block;
-  transition: ease all .5s;
+  transition: ease all 0.5s;
   font-size: 1.5rem;
 }
 .fb-ig a:hover i {
-  color: rgb(92,109,145);
+  color: rgb(92, 109, 145);
 }
 .phone-number p {
-    transition: ease all .5s;
-    font-family: 'Roboto Mono';
+  transition: ease all 0.5s;
+  font-family: "Roboto Mono";
+}
+.phone-number i {
+  font-size: 1.5rem;
 }
 .phone-number p:hover * {
-  color: rgb(92,109,145);
+  color: rgb(92, 109, 145);
   cursor: pointer;
 }
 .list-phone:hover {
@@ -488,22 +479,19 @@ a {
 .list-phone a:hover {
   transition: 0.5s;
 }
-.list-style:hover{
-  background-color:  #cddae3 ;
+.list-style:hover {
+  background-color: #cddae3;
   border-radius: 0 50% 50% 0;
 }
-
 
 /*
 .shopping-cart a img:hover {
   width: 40px;
 }*/
-  
 
 .clearboth {
   clear: both;
 }
-
 
 /* Restyle */
 .bg-patern {
@@ -556,7 +544,7 @@ a {
   margin-right: 0;
   background: transparent;
   padding: 8px;
-  transition: ease all .5s;
+  transition: ease all 0.5s;
   margin-left: 0;
   padding: 0;
   display: flex;
@@ -570,7 +558,7 @@ a {
 .shopping-cart-dropdown {
   display: none;
   height: 0;
-  transition: ease all .5s;
+  transition: ease all 0.5s;
 }
 .shopping-cart-container:hover .img-wrapper {
   background: rgb(0 0 0 / 14%);
@@ -593,42 +581,42 @@ a {
 
 .shopping-cart-dropdown .cart-detail .item {
   display: flex;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 .shopping-cart-dropdown .cart-detail .item:last-child {
   padding-bottom: 0;
 }
 .shopping-cart-dropdown .cart-detail .item .thumb {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 .shopping-cart-dropdown .cart-detail .item .thumb img {
   border-radius: 20%;
-  box-shadow: 4px 8px 20px 0 rgb(0 0 0 / 0.3)
+  box-shadow: 4px 8px 20px 0 rgb(0 0 0 / 0.3);
 }
 .shopping-cart-dropdown .cart-detail .item .item-detail {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 .shopping-cart-dropdown .cart-detail .item .item-detail p {
   margin-bottom: 10px;
-  font-family: 'Tenor Sans';
+  font-family: "Tenor Sans";
 }
 .shopping-cart-dropdown .cart-detail .item-detail .item-number {
   margin-bottom: 10px;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
 }
 .shopping-cart-dropdown .cart-detail .item .quantity {
   display: flex;
   align-items: center;
-  font-family: 'Tenor Sans';
+  font-family: "Tenor Sans";
 }
 .shopping-cart-dropdown .cart-detail .item .quantity .count-product {
   display: flex;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 .shopping-cart-dropdown .cart-detail .item .quantity .value {
   line-height: 20px;
   padding: 0 0.5rem;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
 }
 .shopping-cart-dropdown .cart-detail .item .quantity button {
   width: 20px;
@@ -640,26 +628,25 @@ a {
   background-color: transparent;
   padding: 0;
   font-size: 10px;
-
 }
 .shopping-cart-dropdown .cart-detail .item .price {
-  padding: .5rem;
-  font-family: 'Roboto Mono';
+  padding: 0.5rem;
+  font-family: "Roboto Mono";
 }
 
-.shopping-cart-dropdown .cart-detail .total{
+.shopping-cart-dropdown .cart-detail .total {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1rem;
-  font-family: 'Tenor Sans';
+  font-family: "Tenor Sans";
 }
-.shopping-cart-dropdown .cart-detail .total-price .total-price-number{
+.shopping-cart-dropdown .cart-detail .total-price .total-price-number {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1rem;
-  font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
 }
-.total-price{
+.total-price {
   display: flex;
   justify-content: space-between;
 }
@@ -671,39 +658,40 @@ a {
   background: #ccc;
   margin: 1rem auto;
 }
-.TCS{
+.TCS {
   padding-top: 20px;
-  font-size: 2vw;
+  font-size: 2rem;
 }
-.facebook-link{
+.facebook-link {
   padding-top: 10px;
 }
-.instagram-link{
+.instagram-link {
   padding-top: 10px;
 }
-.R{
+.R {
   padding-top: 20px;
-  font-size: 2vw;
+  font-size: 2rem;
 }
-.icon-link{
+.icon-link {
   padding-top: 10px;
-
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
+  padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type="submit"] {
   background-color: rgb(92, 109, 145);
   color: white;
   padding: 12px 20px;
@@ -713,11 +701,19 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a lighter blue color */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: rgb(202, 215, 225);
 }
 
 /* Fix style */
+* {
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+.page-content {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
 #all-products .row {
   display: flex;
   flex-flow: row wrap;
@@ -725,4 +721,10 @@ input[type=submit]:hover {
 
 #all-products .row .col {
   float: inherit;
+}
+
+.container-modify {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
 }
