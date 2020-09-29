@@ -397,7 +397,9 @@ nav {
     padding-top: .5rem;
     padding-bottom: .5rem;
   } 
-
+   footer {
+    height: auto;
+  }
 }
 
 /* Small devices */
@@ -431,9 +433,6 @@ nav {
     padding: 10px;
   }
 
-  footer {
-    height: auto;
-  }
   footer .contact .phone-number strong {
     font-size: 1rem;
   }
